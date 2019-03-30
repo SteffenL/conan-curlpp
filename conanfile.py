@@ -7,7 +7,7 @@ class CurlppConan(ConanFile):
     url = "https://github.com/SteffenL/conan-curlpp"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
-    default_options = "shared=True"
+    default_options = "shared=False"
     generators = "cmake"
 
     source_dir = "curlpp"
