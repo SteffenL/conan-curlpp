@@ -9,6 +9,7 @@ class CurlppConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
     generators = "cmake"
+    license = "Apache-2.0"
 
     source_dir = "curlpp"
 
