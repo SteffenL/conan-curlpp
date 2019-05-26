@@ -50,4 +50,4 @@ class CurlppConan(ConanFile):
             self.cpp_info.libs = ["curlpp"]
 
     def requirements(self):
-        self.requires("libcurl/[>=7.64.1]@bincrafters/stable")
+        self.requires("libcurl/[>=7.64.1]@langnes/testing")
